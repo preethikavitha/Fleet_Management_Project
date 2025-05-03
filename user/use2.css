@@ -1,0 +1,190 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'segoe UI',Tahoma,Geneva,Verdama,sans-serif;
+  }
+  .bd{
+    color: #fff;
+display:flex;
+height:100vh;
+justify-content:center;
+align-items:center;
+background:#fff;
+padding:10px;
+
+
+  }
+ .container2{
+  margin-top:5px;
+max-width: 1800px;
+width: 100%;
+padding: 25px 30px;
+border-radius: 10px;
+ 
+
+}
+ .container2 .heading{
+font-size: 25px;
+font-weight: 500;
+position: relative;
+text-align: center;
+padding: 0 0 20px 0;
+} 
+ .container2 .heading::before{
+content:'';
+position: absolute;
+height: 3px;
+left: 0;
+bottom: 0;
+width: 100%;
+background:linear-gradient(135deg,#71b7e6,#9b5b);
+ }
+.container2 form .card-details{
+margin-top: 25px;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+ form .card-details .card-box{
+
+width: calc(100%/1 - 20px);
+margin-bottom: 0px;
+
+}
+.card-details .card-box .details{
+
+display: block;
+
+font-weight: 400;
+
+margin-bottom: 5px;
+
+}
+
+.card-details .card-box input
+{
+height: 50px;
+width: 100%;
+outline: none;
+border-radius: 5px;
+border: 1px solid #ccc;
+padding-left: 10px;
+font-size: 15px;
+border-bottom-width: 2px;
+transition: all 0.3s ease;
+}
+.card-details .card-box input:focus,
+.card-details .card-box input:valid{
+
+border-color: #9b59b6;
+}
+form .circal-form .circal-title{
+
+font-size: 13px;
+
+font-weight: 500;
+
+border-bottom: 2px solid;
+}
+ form .circal-form .category{
+
+
+margin-top: 10px;
+
+margin-bottom: 10px;
+ }
+
+form .button{
+
+text-align: center;
+border: 1px solid #02000013;
+}
+
+form .button input
+{
+padding: 10px 0;
+margin-top: 30px;
+
+height: 100%;
+width: 20%;
+outline: none;
+color: #fff;
+border: none;
+font-size: 18px;
+font-weight: 500;
+border-radius: 5px;
+letter-spacing: 1px;
+background:green}
+form .button input:hover
+{
+background:linear-gradient(135deg,#977575ca,#143a05);
+
+}
+ @media(max-width: 584px) {
+
+
+.container2{
+
+max-width: 100%;
+}
+form .card-details .card-box{
+
+margin-bottom: 20px;
+
+width: 100%;
+ }
+form .circal-form .category{
+
+width: 100%;
+
+}
+
+.container12 form .card-details{
+
+max-height: 300px;
+
+overflow: scroll;
+
+}
+
+.card-details::_webkit-scrollbar
+{
+width:0;}
+
+ }
+ #content{
+  border: 1px solid #fff;
+  margin:10px;
+  margin-left: 8px;
+  padding:5px;
+}
+#content #input-group{
+  border:none;
+  outline:none;
+  background: transparent;
+  margin-left:8px;
+  width:300px;
+  color:#352a2a;
+}
+form #first-group #content{
+
+  margin-bottom: 20px;
+  
+  width: 100%;
+   }
+   form #second-group #content{
+  
+  margin-bottom: 20px;
+  
+  width: 100%;
+   }
+  
+  
+  .container2 form #first-group{
+  
+  max-height: 300px;
+  
+  overflow: scroll;
+  
+  }

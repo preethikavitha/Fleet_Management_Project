@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+html,body{
+    font-family: 'Poppins', sans-serif;
+    background-image: url("signup.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+::selection{
+    color: #080808;
+    background:  #6665ee;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container .form{
+    background: #dbdcdd;
+    padding: 30px 35px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.container .form form .form-control{
+    height: 40px;
+    font-size: 15px;
+}
+.container .form form .forget-pass{
+    margin: -15px 0 15px 0;
+   
+}
+.container .form form .forget-pass a{
+   font-size: 17px;
+   
+}
+.container .form form .button{
+    background:#4a585cbd;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.container .form form .button:hover{
+    background: #f88501 ;
+}
+.container .form form .link{
+    padding: 5px 0;
+}
+
+.container .login-form form p{
+    font-size: 12px;
+}
+.container .row .alert{
+    font-size: 9px;
+}
+
+div.valid .error
+{
+	color: #00ff00;
+    font-size:15px;
+}
+
+div.invalid .error{
+   
+	color: #f00;
+    font-size: 15px;
+  
+}
+.form-group.valid input
+{
+   
+	border-color: #00ff00;
+   
+}
+
+.form-group.invalid input{
+  
+	border-color: #f00;
+   
+
+}
+
+div.valid::before{
+	background: url(check.svg)no-repeat center /cover;
+}
+div.invalid::before{
+	background: url(error.png)no-repeat center /cover;
+}
+
+
