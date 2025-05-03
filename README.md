@@ -1,12 +1,10 @@
-# 🚗 Vehicle Rental Management System
+## Fleet Management System
 
-A full-stack web application for managing vehicle rentals with features for both users and administrators. This system enables users to book vehicles with flexible options (self-drive or with driver), track bookings, and download invoices. The admin panel provides tools to manage vehicles, track financials, and oversee customers and employees.
+A full-stack web application for managing vehicle rentals with features for both users and administrators. This system enables users to book vehicles with flexible options (self-drive or with driver) and download invoices. The admin panel provides tools to manage vehicles, track financials, customers and employees.
 
----
+## Features
 
-## 🌐 Features
-
-### 👤 User Side:
+User Side:
 
 * Vehicle Booking with selection of pick-up and drop-off dates.
 * Flexible Pricing Models: Charges based on day, kilometer, or hour.
@@ -14,7 +12,7 @@ A full-stack web application for managing vehicle rentals with features for both
 * Driver Assignment based on availability.
 * Invoice Generation and downloading in PDF format.
 
-### 🛠 Admin Side:
+Admin Side:
 
 * Dashboard Overview showing:
 
@@ -30,9 +28,7 @@ A full-stack web application for managing vehicle rentals with features for both
   * View customer and employee details
   * Track booking history and payment records
 
----
-
-## 🧰 Tech Stack
+## Tech Stack
 
 * Frontend: HTML, CSS, JavaScript, Bootstrap 5
 * Backend: PHP, MySQL
@@ -40,31 +36,26 @@ A full-stack web application for managing vehicle rentals with features for both
 * PDF Generation: FPDF
 * Email Notifications: Email API
 
----
+## Setup Instructions
 
-## 🖥 Setup Instructions
+   Go to into the XAMPP's "htdocs" directory 
 
 1. **Clone the Repository**
 
    ```
-   git clone https://github.com/yourusername/vehicle-rental-system.git
-   cd vehicle-rental-system
+   git clone https://github.com/preethikavitha/Fleet_Management_Project.git
+   cd Fleet_Management_Project
    ```
 
 2. **Setup Database**
 
    * Import the provided SQL file into your MySQL server.
-   * Update database credentials in `/config/db.php`.
 
-3. **Configure Email API (optional)**
+3. **Run Locally**
 
-   * Set your SMTP credentials in the email configuration file.
+   * Use XAMPP to serve the project folder.
+   * Visit `http://localhost/Fleet_Management_Project/user/` in your browser.
 
-4. **Run Locally**
 
-   * Use XAMPP/LAMP/MAMP to serve the project folder.
-   * Visit `http://localhost/vehicle-rental-system/` in your browser.
-
----
 
 
